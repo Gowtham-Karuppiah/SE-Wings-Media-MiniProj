@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+.venv/
+
+# Build output
+/build/
+/dist/
+/target/
+
+# Environment variables and credentials
+.env
+.env.local
+config/*.keys
+!config/important.keys # Exception: track a specific file
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE or editor-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.pid
+.next/
